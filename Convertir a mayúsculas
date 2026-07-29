@@ -1,0 +1,7 @@
+def convertir_mayusculas(texto):
+    return texto.upper()
+
+
+cadena = input("Escribe un texto: ")
+
+print(convertir_mayusculas(cadena))

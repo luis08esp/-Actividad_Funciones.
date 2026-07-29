@@ -1,0 +1,12 @@
+import math
+
+def raiz(numero):
+    return math.sqrt(numero)
+
+
+n = float(input("Ingresa un número: "))
+
+if n >= 0:
+    print("La raíz cuadrada es:", raiz(n))
+else:
+    print("No existe raíz cuadrada real.")
